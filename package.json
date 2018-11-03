@@ -1,0 +1,32 @@
+{
+  "name": "aula_2",
+  "version": "1.0.0",
+  "description": "Simple Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js",
+    "dev":"nodemon server/index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaelgaeta/Aula_2.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Raphael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raphaelgaeta/Aula_2/issues"
+  },
+  "homepage": "https://github.com/raphaelgaeta/Aula_2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
